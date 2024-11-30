@@ -1,0 +1,60 @@
+{
+    "productType": [
+        {
+            "id": 1,
+            "name": "Product Type 1",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Product A"
+                },
+                {
+                    "id": 2,
+                    "name": "Product B" 
+                },
+                {
+                    "id": 3,
+                    "name": "Product C"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Product Type 2",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Product A"
+                },
+                {
+                    "id": 2,
+                    "name": "Product B" 
+                },
+                {
+                    "id": 3,
+                    "name": "Product C"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Product Type 3",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Product A"
+                },
+                {
+                    "id": 2,
+                    "name": "Product B"
+                },
+                {
+                    "id": 3,
+                    "name": "Product C"
+                }
+            ]
+        }
+
+    ]
+
+}
