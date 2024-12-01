@@ -10,4 +10,15 @@ $y = 20;
 <div>Less: <?php echo $x < $y; ?></div>
 <div>Greater or Equal: <?php echo $x >= $y; ?></div>
 <div>Less or Equal: <?php echo $x <= $y; ?></div>
+<div>And: <?php echo $x && $y; ?></div>
+<div>Or: <?php echo $x || $y; ?></div>
+<div>Not: <?php echo !$x; ?></div>
+
+
+
+
+
+
+
+
 
