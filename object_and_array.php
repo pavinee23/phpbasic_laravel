@@ -7,11 +7,12 @@ class product {
 
 $p1 = new product();
 $p1->name = 'product 1';
-$p1->price = 1000;    
+$p1->price = 1000;
 
 $p2 = new product();
 $p2->name = 'product 2';
 $p2->price = 2000;
+
 
 $p3 = new product();
 $p3->name = 'product 3';
@@ -31,6 +32,7 @@ $products = [$p1, $p2, $p3];
             <td><?php echo $product->name; ?></td>
             <td><?php echo $product->price; ?></td>
         </tr>
+        
     <?php } ?>
 </table>
 
