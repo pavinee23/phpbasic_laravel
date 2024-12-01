@@ -1,49 +1,46 @@
 <?php
 
+class Button {
+    public $text;
 
-include "ui_framework.php";
+    public function __construct($text){
+        $this->text = $text;
+    }
 
-$button = new Button("Click Me");
+    public function toString(){
+        $style = "
+        background-color: #007bff; 
+        color: #fff; 
+        padding: 10px 20px; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer;
+        ";
 
-$input_username = new Input("text");
-$input_password = new Input("password");
+        return "<button style='$style'>$this->text</button>";
+    }
+
+
+
+}
+
+class Input {
+    public $type;
+
+    public function __construct($type){
+        $this->type = $type;
+    }
+
+    public function toString(){
+        $style = "
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        ";
+
+        return "<input type='$this->type' style='$style'>";
+    }
+
+}
 
 ?>
-
-
-<form method="post">
-    <div>Username</div>
-        <div><?php echo $input_username->toString(); ?></div>
-   
-    <div style="margin-top: 10px;">Password</div>
-        <div><?php echo $input_password->toString(); ?></div>
-    
-    <div style="margin-top: 10px;"><?php echo $button; ?></div>
-</form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
